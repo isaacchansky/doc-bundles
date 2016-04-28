@@ -1,0 +1,26 @@
+{
+  "name": "front-end-futures",
+  "version": "1.0.0",
+  "description": "A front end development workflow with minimal abstraction & a focus on writing html/css/js for future specs, today.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildJS": "browserify _js-future/main.js -o js/main.js -t [babelify --presets [es2015] ]",
+    "watchJS": "./node_modules/wr/bin/wr 'npm run buildJS' _js-future/*.js ",
+    "buildCSS": "postcss -u autoprefixer -u postcss-cssnext -o css/main.css _css-future/*.css",
+    "watchCSS": "./node_modules/wr/bin/wr 'npm run buildCSS' _css-future/*.css "
+  },
+  "author": "Isaac Chansky",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.2",
+    "babel-cli": "^6.5.1",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "postcss-cli": "^2.5.1",
+    "postcss-cssnext": "^2.4.0",
+    "wr": "^1.3.1"
+  }
+}
