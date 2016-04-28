@@ -1,0 +1,24 @@
+{
+  "docs": [
+     {
+       "name": "autoprefixer",
+        "url": "https://github.com/postcss/autoprefixer/blob/master/README.md"
+     },
+    {
+      "name": "babel",
+      "url": "https://babeljs.io/"
+    },
+    {
+      "name": "browserify",
+      "url": "http://browserify.org/"
+    },
+    {
+        "name": "postCSS",
+        "url": "https://github.com/postcss/postcss/blob/master/README.md"
+    },
+    {
+        "name": "jQuery",
+        "url": "http://api.jquery.com/"
+    }
+  ]
+}

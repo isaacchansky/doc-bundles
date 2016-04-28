@@ -28,6 +28,7 @@ const TEMPLATES = {
     <section class="Header">
       <h1>Doc Bundler</h1>
       <p>One link for all your 3rd party documentation.</p>
+      <p><a href="/?repo=https://github.com/isaacchansky/doc-bundles">View this projects doc bundle</a>
     </section>
     <section class="Why">
       <h2>Why</h2>
@@ -42,16 +43,24 @@ const TEMPLATES = {
         {
           "docs": [
              {
-               "name": "Backbone",
-                "url": "http://backbonejs.org"
+               "name": "autoprefixer",
+                "url": "https://github.com/postcss/autoprefixer/blob/master/README.md"
              },
             {
-              "name": "Underscore",
-              "url": "http://underscorejs.org"
+              "name": "babel",
+              "url": "https://babeljs.io/"
             },
             {
-              "name": "Marionette",
-              "url": "http://marionettejs.com/"
+              "name": "browserify",
+              "url": "http://browserify.org/"
+            },
+            {
+                "name": "postCSS",
+                "url": "https://github.com/postcss/postcss/blob/master/README.md"
+            },
+            {
+                "name": "jQuery",
+                "url": "http://api.jquery.com/"
             }
           ]
         }
