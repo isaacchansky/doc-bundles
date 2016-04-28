@@ -1,5 +1,5 @@
-#Front End Futures
-Pollyfilled & future-proofed front end workflow.
+#Doc Bundler
+Bundle together documentation for better onboarding
 
 ##This utilizes:
   - Babel JS (for latest JS spec)
